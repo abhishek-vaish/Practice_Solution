@@ -9,7 +9,7 @@ public class Solution2 {
         Scanner Scanner = new Scanner(System.in);
         str1 = Scanner.nextLine();
         str2 = Scanner.nextLine();
-
+        System.out.println(str1 + " University " + str2);
     }
 }
 
