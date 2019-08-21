@@ -9,5 +9,9 @@ public class Solution11 {
         Scanner scan = new Scanner(System.in);
         value1 = scan.nextInt();
         value2 = scan.nextInt();
+        for (int i = value1 + 1; i < value2; i++) {
+            if (i % 2 == 0)
+                System.out.println(i);
+        }
     }
 }
