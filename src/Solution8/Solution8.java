@@ -8,7 +8,7 @@ public class Solution8 {
         int age;
         Scanner scan = new Scanner(System.in);
         gender = scan.nextLine();
-        age = scan.NextInt();
+        age = scan.nextInt();
     }
 
 }
