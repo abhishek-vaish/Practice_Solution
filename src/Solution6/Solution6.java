@@ -11,5 +11,10 @@ public class Solution6 {
         str2 = scan.next().charAt(0);
         int value = str1;
         int value1 = str2;
+        if (value > value1)
+            System.out.println(str2 + " " + str1);
+        else
+            System.out.println(str1 + " " + str2);
 
+    }
 }
